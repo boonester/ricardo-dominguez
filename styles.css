@@ -1,0 +1,39 @@
+.title{
+    font-family: Helvetica;
+    font-weight: bolder;
+    color: crimson;
+    font-size: 800%;
+    font-kerning: normal;
+    letter-spacing: -.12em;
+    
+}
+a{
+    text-decoration: none;
+    color: #E30000;
+}
+.title:visited{
+    color: #E30000;
+}
+.image{
+    position: relative;
+    top: 100px;
+    left: 700px;
+}
+#line1{
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+}
+#line2{
+    margin-top: 30px;
+    position: relative;
+    left: 1px;
+}
+#line3{
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+}
+#line4{
+    margin-top: 30px;
+}

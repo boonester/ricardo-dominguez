@@ -1,3 +1,10 @@
+ #nav a:visited {
+    color: black;
+}
+#nav a:hover {
+    color: crimson;
+            
+ }
 .title{
     font-family: Helvetica;
     font-weight: bolder;

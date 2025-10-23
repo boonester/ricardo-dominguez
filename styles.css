@@ -11,13 +11,15 @@ a{
     text-decoration: none;
     color: #E30000;
 }
+
 .title:visited{
     color: #E30000;
 }
 .image{
     position: relative;
     top: 100px;
-    left: 700px;
+    left: 750px;
+    width: 110%;
 }
 #line1{
     margin-top: 30px;
@@ -51,4 +53,61 @@ a{
 .black{
     color: white;
     -webkit-text-stroke: #E30000 2px;
+}
+.text{
+    width: 40%;
+    font-size: 150%;
+    font-family: monospace;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+#ric2{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    z-index: 1;
+    size-adjust: 50%;
+}
+#ric4{
+    width: 35%;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    z-index: 0;
+}
+#edt{
+    width: 45%;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    z-index: 0;
+}
+#floodnet2{
+    width: 30%;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    z-index: 1;
+}
+#floodnet1{
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    z-index: 1;
+}
+#tbt1{
+     width: 40%;
+    position: absolute;
+    top: 375px;
+    right: 100px;
+    z-index: 1;
+}
+#tbt2{
+     width: 35%;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    z-index: 1;
 }

@@ -4,7 +4,7 @@
     color: crimson;
     font-size: 800%;
     font-kerning: normal;
-    letter-spacing: -.12em;
+    letter-spacing: -.10em;
     
 }
 a{
@@ -36,4 +36,19 @@ a{
 }
 #line4{
     margin-top: 30px;
+}
+.hover-container .hover-text {
+  display: none; 
+}
+
+.hover-container:hover .original-text {
+  display: none; 
+}
+
+.hover-container:hover .hover-text {
+  display: inline;
+}
+.black{
+    color: white;
+    -webkit-text-stroke: #E30000 2px;
 }

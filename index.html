@@ -1,25 +1,29 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RICARDO DOMINGUEZ</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body{
+        body {
             margin: 0%;
         }
-        .content{
+
+        .content {
             position: absolute;
             top: 92;
             display: flex;
 
         }
-        .name{
+
+        .name {
             position: absolute;
             top: -30px;
             left: -10px;
         }
-        #nav{
+
+        #nav {
             text-align: right;
             font-family: monospace;
             font-size: 200%;
@@ -28,17 +32,26 @@
             left: 50px;
             margin: 20px;
         }
-        #nav a:visited{
+
+        #nav a:visited {
             color: black;
         }
-
+        #nav a:hover {
+            color: crimson;
+            
+        }
     </style>
 </head>
+
 <body>
     <div class="title">
-        <a href="index.html" class="name">RICARDO DOMINGUEZ</a>
+        <div class="hover-container">
+            <span class="original-text"><a href="index.html" class="name">RICARDO DOMINGUEZ</a></span>
+            <span class="hover-text"><a href="index.html" class="name"><span class="black">RICARDO
+                        DOMINGU</span>EZLN</a></span>
+        </div>
     </div>
-    
+
     <div class="content">
         <div id="nav" style="color: black;">
             <div id="line1"><a href="about.html">ABOUT</a></div>
@@ -50,4 +63,5 @@
     </div>
 
 </body>
+
 </html>
